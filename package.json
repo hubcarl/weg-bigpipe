@@ -1,0 +1,20 @@
+{
+  "name": "weg-bigpipe",
+  "version": "0.0.1",
+  "description": "An express.js middleware for fis widget pipline output.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter dot --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hubcarl/weg-bigpipe.git"
+  },
+  "keywords": [
+    "fis",
+    "bigpipe",
+    "middleware"
+  ]
+}
